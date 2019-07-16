@@ -1,4 +1,4 @@
-gcloud compute instances create  gce-windows-env-variable \
+gcloud compute instances create $INSTANCE_NAME \
     --zone=$ZONE \
     --machine-type $MACHINE_TYPE \
     --image=windows-server-2019-dc-v20190709 \

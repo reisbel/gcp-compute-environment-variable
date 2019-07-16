@@ -51,6 +51,14 @@ Output
 
 ![alt text](https://user-images.githubusercontent.com/247003/61329231-d5a42100-a7ea-11e9-93ea-afac67a9e1fd.jpeg "Instance environment variables ")
 
+## Cleanup
+
+To avoid unexpected changes, remember to delete create resources.
+
+```bash
+gcloud compute instances delete $INSTANCE_NAME --zone=$ZONE
+```
+
 ## License
 
 MIT - See [LICENSE](LICENSE) for more information.
