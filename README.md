@@ -1,6 +1,6 @@
 # gcp-compute-environment-variable
 
-Set environment variable on GCP Compute instance
+Set environment variable on GCP Compute Windows instance
 
 ## Clone repository
 
